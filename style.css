@@ -159,6 +159,7 @@ td {
 .header {
     background-color: cadetblue;
     color: antiquewhite;
+    transition: 300ms;
 }
 
 .header:hover {
