@@ -56,7 +56,7 @@ img:hover {
     ;
 }
 
-ul {
+.navbar ul {
     list-style: none;
 
 }
@@ -82,7 +82,7 @@ ul {
     border-radius: 10px;
 }
 
-a {
+.navbar a {
     text-decoration: none;
     color: antiquewhite;
     font-size: 25px;
@@ -180,4 +180,148 @@ td {
 .face:hover {
     background-color: antiquewhite;
     color: rgb(10, 141, 97);
+}
+
+/* sign up page */
+.intro p {
+    color: #165e99;
+    text-wrap: nowrap;
+    margin-left: 30%;
+}
+
+.join .dash {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    left: 12%;
+    background-color: rgb(240, 211, 176);
+    padding: 20px;
+    border-radius: 20px;
+    flex-direction: row;
+}
+
+h2 {
+    color: cadetblue;
+    padding-left: 30px;
+}
+
+.join .dash p {
+    font-size: xx-large;
+}
+
+.join .Volunteer{
+    color: rgb(234, 189, 134);
+    text-align: center;
+}
+.join ul{
+    background-color: rgb(244, 223, 197);
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 10%;
+    padding: 20px;
+}
+.list > li{
+    color:rgb(53, 48, 48);
+    padding: 10px;
+    list-style: inside;
+    text-wrap: nowrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sign{
+    background-color: rgb(249, 225, 195);
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.sign p {
+    text-wrap: nowrap;
+    color: cadetblue;
+}
+.sign .sign-in {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.sign .sign-in input{
+    width: 30%;
+    border-radius: 10px;
+    padding: 15px 10px;
+    border: 0;
+    background-color: antiquewhite;
+}
+.ask label{
+    color: #216ead;
+    font-size: x-large;
+}
+.tell{
+    outline: none;
+    width:  250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border: none;
+    padding: 20px;
+} 
+#submit{
+    background-color: #256193;
+    border: none;
+    font-size: large;
+    color: rgb(136, 225, 172);
+    border-radius: 5px;
+    margin-top: 4%;
+    padding: 5px;
+}
+#submit:hover{
+    background-color: darksalmon;
+    color: lightblue;
+}
+.sign ::placeholder{
+    color: #216ead;
+}
+.sign  input:focus{
+    background-color: rgb(243, 221, 191);
+    outline: none;
+}
+footer{
+    background-color: rgb(46, 42, 42);
+    margin: -1%;
+    height: 160px;
+
+}
+.links{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.useful  {
+    color: #216ead;
+    padding: 10px;
+    text-align: center;
+}
+.links a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: large;
+}
+.links a:hover{
+    color: rgb(216, 189, 155);
+}
+footer .copy{
+    text-wrap: nowrap;
+    padding: 20px;
+    margin-left: 40%;
+    color: cadetblue;
 }
